@@ -1,0 +1,21 @@
+metric: VOC
+map_type: 11point
+num_classes: 1
+
+TrainDataset:
+  name: COCODataSet
+  dataset_dir: F:/PingpangDetect/dataset/train
+  anno_path: F:/PingpangDetect/dataset/train/annotations_coco.json
+  label_list: labels.txt
+  data_fields: ['image', 'gt_bbox', 'gt_class']
+
+EvalDataset:
+  name: COCODataSet
+  dataset_dir: F:/PingpangDetect/dataset/val
+  anno_path: F:/PingpangDetect/dataset/val/annotations_coco.json
+  label_list: labels.txt
+  data_fields: ['image', 'gt_bbox', 'gt_class']
+
+TestDataset:
+  name: ImageFolder
+  anno_path: F:/PingpangDetect/dataset/train/annotations_coco.json
