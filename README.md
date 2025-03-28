@@ -1,7 +1,7 @@
 ## 模型的最终效果可以在"test_image"文件夹中查看~  
 ## 数据集说明  
 数据集文件过大无法上传至此处  
-数据集可从 [AI Studio](https://aistudio.baidu.com/datasetdetail/32113) 下载。  
+数据集可从 [AI Studio](https://aistudio.baidu.com/datasetdetail/321138) 下载。  
 下载后，需将数据整理为以下结构：  
 dataset  
 ├── train  
